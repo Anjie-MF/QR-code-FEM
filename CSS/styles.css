@@ -1,22 +1,29 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-color:#D4e3ec;
+    background-color: #D4e3ec;
 
 }
 
-.header h1 {
+h1 {
     font-weight: 700;
     font-size: 50px;
     text-align: center;
+    background-color: yellow;
 }
 
-.paragraph p {
+p {
     font-weight: 400;
     font-size: 25px;
     text-align: center;
+    background-color: green;
 }
 
-.main-image img {
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
     border-radius: 20px;
     text-align: center;
+    border: 25px dotted orange;
 }
